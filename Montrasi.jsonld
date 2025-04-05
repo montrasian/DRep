@@ -77,11 +77,6 @@
         "uri": "https://montrasi.com/"
       },
       {
-        "@type": "Link",
-        "label": "Github",
-        "uri": "https://github.com/montrasian"
-      },
-      {
         "@type": "Identity",
         "label": "DRep Website",
         "uri": "https://montrasi.com/"
