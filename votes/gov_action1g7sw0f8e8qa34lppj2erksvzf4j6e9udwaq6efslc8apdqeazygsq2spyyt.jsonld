@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I am voting YES to ratify the results of the recent Constitutional Committee (CC) election. This action is not just procedural, but critical for the continuity and stability of Cardano's governance.\n\nMy confidence in this proposal rests on three key points:\n\n1. Time-Sensitivity: The Interim CC's term expires at the end of epoch 580. A YES vote ensures a seamless transition, preventing any lapse in the committee's essential functions, as mandated by the Constitution.\n\n2. Process Integrity: The election hosted by Intersect was designed for transparency and verifiability. The inclusion of an independent audit by DQuadrant provides strong assurance that the results are legitimate and reflect the will of the voting dReps.\n\n3. Constitutional Adherence: This action upholds the constitutional mandate for staggered terms, a crucial feature for long-term committee stability and knowledge retention.\n\nBy ratifying these results, we are respecting a sound electoral process and taking a mature step forward in our decentralized governance journey."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
